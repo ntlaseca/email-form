@@ -1,0 +1,1 @@
+Download the repository and use 'npm start' in the root folder to start the React app.
