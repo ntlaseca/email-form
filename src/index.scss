@@ -1,0 +1,33 @@
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  height: 100vh;
+  font-family: Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 2rem;
+}
+
+.container-fluid {
+  max-width: 1440px;
+}
+
+@include media-breakpoint-up(md) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  h1 {
+    font-size: 3rem;
+  }
+}

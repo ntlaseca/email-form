@@ -1,0 +1,19 @@
+.error {
+  color: red;
+}
+
+.MuiInputBase-root {
+  color: white !important;
+}
+
+.MuiFilledInput-root {
+  background-color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.MuiFilledInput-root.Mui-focused {
+  background-color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.MuiFormLabel-root {
+  color: rgba(255, 255, 255, .54) !important;
+}
